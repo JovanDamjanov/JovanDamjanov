@@ -10,7 +10,7 @@ body {
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(zimni.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(zimski2.jpg);
     background-size: cover;
     background-position: center
 }
@@ -62,7 +62,7 @@ body {
 /* Background image set using CSS */
 .content::before {
     content: '';
-    background-image: url('zimni.jpg');
+    background-image: url('zimski2.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -100,4 +100,56 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 100px;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.dropdown-menu li {
+    display: block;
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #009688;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Слики за зимски гуми */
+.zimna-slika {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.zimna-slika img {
+    max-width: 100%;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
 
