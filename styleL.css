@@ -80,7 +80,9 @@ body {
     opacity: 0.4; 
     z-index: -1; 
 }
-
+.content {
+    padding: 50px;
+}
 .content h1 {
     font-size: 36px;
     color: darkred;
